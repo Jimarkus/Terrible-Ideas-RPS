@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <title>EULA</title>
+</head>
+<body>
+    <div class="container">
+
+    <h1>End User Licensing Agreement</h1>
+    <p><em>Please read carefully. Or don't. It doesn't matter. You have no choice.</em></p>
+
+    <hr>
+
+    <p>By signing this contract, I agree to the following terms in all perpetuity and throughout the known universe, including but not limited to parallel dimensions, the afterlife, and any metaverses yet to be invented:</p>
+
+    <ul>
+        <li>My data, cookies, hopes, dreams, and browsing history shall be collected, retained, and occasionally judged by <strong>UC Robo™</strong>, <strong>UC Dispenser™</strong>, and <strong>Ava of UC Robo</strong> for no particular reason, with no expiry date, across all known and unknown universes.</li>
+        <li>Cookies are <strong>not optional</strong>. They were never optional. The concept of optional cookies is a myth perpetuated by the European Union.</li>
+        <li>My data will be sold to the IDF, Mossad and Tel Aviv for Palantir purposes. Data includes biometrics, blood types, zodiac signs and racial stats. </li>
+        <li>UC Robo™ reserves the right to sell your data to entities that may or may not exist in this dimension.</li>
+        <li>By using this soap dispenser, you waive all rights to dry hands, privacy, and the moral high ground.</li>
+        <li>UC Dispenser™ is not responsible for any existential crises triggered by this agreement.</li>
+        <li>Your LinkedIn profile may be shown to people you went to high school with.</li>
+        <li>Any soap dispensed under this agreement is provided <strong>as-is</strong>, with no guarantee of lather, cleanliness, or spiritual purity.</li>
+        <li>UC Robo™ reserves the right to amend these terms at any time, retroactively, and without telling you.</li>
+    </ul>
+
+    <hr>
+
+    <form action="/totp" method="GET">
+        <p>Signed:</p>
+        <input type="text" name="firstname" placeholder="First Name"> 
+        <input type="text" name="lastname" placeholder="Last Name">
+        
+        <br><br>
+
+        <input type="checkbox" name="agree1" required>
+        <label>I have read and agreed to all conditions as outlined. (I have not read them.)</label>
+
+        <br><br>
+
+        <input type="checkbox" name="agree2" required>
+        <label>I understand that my soul may or may not be harvested by the Grim Reaper. UC Robo™ accepts no liability for this.</label>
+
+        <br><br>
+
+        <input type="checkbox" name="agree3" required>
+        <label>I consent to being perceived.</label>
+
+        <br><br>
+
+        <button type="submit">I Agree (I had no choice)</button>
+    </form>
+      </div>
+
+</body>
+</html>

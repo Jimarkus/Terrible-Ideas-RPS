@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2b2b2b;
+    color: #f5f0e8;
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.container {
+    background-color: #333333;
+    border: 1px solid #444;
+    border-radius: 12px;
+    padding: 2.5rem;
+    max-width: 480px;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #f5c842;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    color: #f5c842;
+    margin-bottom: 0.5rem;
+}
+
+p, label, li {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #ddd8cc;
+}
+
+ul {
+    padding-left: 1.2rem;
+    margin: 1rem 0;
+}
+
+li {
+    margin-bottom: 0.75rem;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #444;
+    margin: 1.5rem 0;
+}
+
+input[type="text"] {
+    background: #222;
+    border: 1px solid #555;
+    border-radius: 6px;
+    color: #f5f0e8;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #f5c842;
+}
+
+input[type="checkbox"] {
+    accent-color: #f5c842;
+    margin-right: 0.5rem;
+}
+
+button {
+    background-color: #f5c842;
+    color: #2b2b2b;
+    border: none;
+    border-radius: 6px;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 1rem;
+    transition: background 0.2s ease;
+}
+
+button:hover {
+    background-color: #e0b432;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.error {
+    color: #ff6b6b;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}

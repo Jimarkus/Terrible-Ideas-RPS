@@ -1,0 +1,5 @@
+flask
+pyotp
+qrcode[pil]
+requests
+python-dotenv
